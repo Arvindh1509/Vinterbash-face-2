@@ -13,7 +13,7 @@ import {
   Toolbar,
   Typography,
 } from "@mui/material";
-import FlexBetween from "./FlexBetween";
+import FlexBetween from "../FlexBetween";
 import { useStateValue } from "../StateProvider";
 import { useNavigate } from "react-router-dom";
 

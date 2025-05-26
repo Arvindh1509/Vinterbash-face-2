@@ -4,7 +4,7 @@ import {  Box,  Divider,  Drawer,  IconButton,  List,  ListItem,  ListItemButton
 import {  ChevronLeft,  ChevronRightOutlined,  HomeOutlined,  ShoppingCartOutlined,  ReceiptLongOutlined,    AdminPanelSettingsOutlined,  AddCircleOutlineOutlined,  LoyaltyOutlined, SettingsOutlined,} from "@mui/icons-material";
 import { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-import FlexBetween from "./FlexBetween";
+import FlexBetween from "../FlexBetween";
 import { useStateValue } from "../StateProvider";
 
 const navItems = [

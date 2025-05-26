@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import FlexBetween from '../../components/FlexBetween';
 import { Box } from '@mui/material';
-import Statbox from '../../components/Statbox';
+import Statbox from './Statbox';
 //import { useStateValue } from '../../StateProvider';
 import { Navigate } from 'react-router-dom';
 import Header from '../Header/Header';
